@@ -10,9 +10,31 @@ body {
     margin: 0;
     font-family: $main-font;
     
-    
+//    background-image: url(../img/background.png);
+//    background-position: center;
+//    background-size: cover;
+//    background-repeat: no-repeat;
+//    
+//    heigh: 75vh;
 }
 
 header, section{
     width: 100%;
+}
+
+.cointainer {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: 100%;
+}
+
+.yellow{
+    color:$yellow-color;
+}
+
+.col-1-2 {
+    width: 50%;
+    float: left;
 }
